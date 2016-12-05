@@ -18,7 +18,7 @@
 }
 
 #chicken h2 {
-background-color: pink;
+	background-color: pink;
 	border-left: 1px solid #000000;
 	color: white;
 	font-size: 125%;
@@ -35,8 +35,6 @@ background-color: pink;
 	border-left: 1px solid #000000;
 	color: white;
 	font-size: 125%;
-	margin-bottom: 0;
-	margin-top: 0;
 	padding: 2px;
 	text-align: center;
 	margin-left: 70%;
@@ -204,7 +202,7 @@ h1 {
 section {
 	background-color: #E4E4E4;
 	border: 1px solid black;
-	height: 200px
+	height: 250px
 	padding 0;
 	position: relative;
 	overflow: auto;
@@ -215,9 +213,9 @@ section h2 {
 	border-bottom: 1px solid black;
 	border left: 1px solid black;
 	font-size: 1.25em;
-	margin: 0 0 0 60%;
+	margin: 0;
 	text-align: center;
-	width: 40%;
+	width: 60%;
 }
 
 section p {
