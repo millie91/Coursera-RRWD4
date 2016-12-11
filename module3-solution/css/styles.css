@@ -9,7 +9,9 @@ body {
 	background-color: maroon;
 }
 
-/** HEADER **/
+/* HEADER */
+
+
 #header-nav {
 	background-color: #000;
 	border-radius: 0;
@@ -22,7 +24,7 @@ body {
 
 .navbar-brand h1 { /* Company name */
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
 	margin-top: 0;
@@ -33,3 +35,39 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
 	text-decoration: none;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid maroon;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/* TEXT CONTENT */
+
+#our-menu {
+	padding-bottom: 20px;
+	font-size: 1.6em;
+}
+
+section {
+	text-align: justify;
+	border: 1px solid;
+	border-radius: 3px;
+	border-color: black;
+	background-color: grey;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 10px;
+}
+
+.container h3 {
+	color: black;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
