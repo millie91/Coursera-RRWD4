@@ -49,6 +49,7 @@ body {
 }
 
 #nav-list a:hover {
+	color: gold;
 	background-color: grey;
 }
 
