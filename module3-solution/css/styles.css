@@ -9,6 +9,11 @@ body {
 	background-color: maroon;
 }
 
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* HEADER */
 
 
@@ -50,7 +55,7 @@ body {
 
 #nav-list a:hover {
 	color: gold;
-	background-color: grey;
+	background-color: #222;
 }
 
 
