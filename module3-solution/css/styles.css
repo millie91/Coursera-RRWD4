@@ -85,3 +85,10 @@ section {
 	padding-bottom: 10px;
 }
 
+.jumbotron {
+	padding-left: 0px;
+    margin-bottom: 0px;
+    color: inherit;
+    background-color: none; 
+}
+
