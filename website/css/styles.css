@@ -1,0 +1,161 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+}
+
+
+/*** HEADER ***/
+#header-nav {
+	background: url('../images/menu_background.jpg') no-repeat;
+	border-radius: 0;
+	border: solid 2px white;
+	height: 150px;
+}
+
+.navbar-brand h1 {
+	color: #fff;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: .75;
+	margin-bottom: 0;
+	margin-top: 90px;
+	text-shadow: 1px 1px 1px #222;
+	text-transform: uppercase;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 100px;
+}
+
+#nav-list a {
+	color: #fff;
+	font-size: 20px;
+	margin: 0;
+  padding: 10px;
+  text-align: center;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#nav-list li {
+  margin: 2px;
+}
+
+#nav-list li:hover {
+	margin: 1px;
+}
+
+#collapsable-nav #nav-list > li > a:hover {
+  color: #837b7b; 
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #fff;
+	background: transparent;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -15px;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background: #555;
+}
+
+
+/*** END HEADER ***/
+
+/*** LARGE DEVICES ***/
+@media (min-width: 1200px){
+  .navbar-brand h1 {
+      font-size: 40px;
+    }
+
+  .jumbotron {
+    background: url('../images/mac1200.jpg') no-repeat;
+    height: 668px;
+    box-shadow: 0 0 0 #555;
+    border: 2px solid white;
+    margin-top: 30px;
+  }
+}
+/*** MEDIUM DEVICES ***/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand h1 {
+      font-size: 40px;
+    }
+
+  .jumbotron {
+    background: url('../images/mac992.jpg') no-repeat;
+    height: 552px;
+    box-shadow: 0 0 0 #555;
+    border: 2px solid white;
+    margin-top: 30px;
+  }
+}
+/*** SMALL DEVICES ***/
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand h1 {
+      font-size: 35px;
+    }
+
+  .jumbotron {
+    background: url('../images/mac768.jpg') no-repeat;
+    height: 427px;
+    box-shadow: 0 0 0 #555;
+    border: 2px solid white;
+    margin-top: 30px;
+  }
+}
+/*** XS DEVICES ***/
+@media (max-width: 767px) {
+	.navbar-header button.navbar-toggle {
+    clear: both;
+  }
+
+  .navbar-brand {
+		height: 80px;
+	}
+
+	.navbar-brand h1 {
+		font-size: 5vw;
+	}
+
+  #header-nav {
+  height: 80px;
+  }
+
+  #nav-list {
+    margin-top: 1px;
+  }
+  .navbar-brand h1 {
+    margin-top: 25px;
+  }
+
+  #collapsable-nav #nav-list > li > a {
+  background: url('../images/menu_background.jpg') no-repeat;
+  border: 1px solid black;
+  }
+
+  #collapsable-nav #nav-list > li > a:hover {
+  background: white;
+  } 
+
+  #main-content .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    box-shadow: 0 0 0 #555;
+    border: 2px solid white;
+  }
+}
+
+
