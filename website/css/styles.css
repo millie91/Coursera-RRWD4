@@ -3,12 +3,14 @@
 }
 
 body {
+  background-color: white;
+  color: #fff;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
 }
 
 
-/*** HEADER ***/
+/* HEADER */
 #header-nav {
 	background: url('../images/menu_background.jpg') no-repeat;
 	border-radius: 0;
@@ -33,7 +35,7 @@ body {
 }
 
 #nav-list {
-	margin-top: 100px;
+	margin-top: 85px;
 }
 
 #nav-list a {
@@ -70,55 +72,112 @@ body {
 .navbar-header button.navbar-toggle:hover {
 	background: #555;
 }
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 5px #555;
+}
+
+#github-tile, #ffc-tile, #map-tile {
+  height: 250px;
+  width: auto;
+  margin-bottom: 15px;
+  position: relative;
+  border: 1px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#github-tile:hover, #ffc-tile:hover, #map-tile:hover {
+  box-shadow: 0 2px 5px 2px #777;
+}
+
+#github-tile {
+  background: url('../images/github.jpg') no-repeat;
+  background-position: center;
+}
+
+#ffc-tile {
+  background: url('../images/ffc.jpg') no-repeat;
+  background-position: center;
+}
 
 
-/*** END HEADER ***/
+#github-tile span, #ffc-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* ENG HOME PAGE */
 
 /*** LARGE DEVICES ***/
 @media (min-width: 1200px){
+  /* Header */
   .navbar-brand h1 {
       font-size: 40px;
     }
 
-  .jumbotron {
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
     background: url('../images/mac1200.jpg') no-repeat;
     height: 668px;
-    box-shadow: 0 0 0 #555;
-    border: 2px solid white;
     margin-top: 30px;
   }
+  /* End Home Page */
+
+  
 }
+
 /*** MEDIUM DEVICES ***/
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
   .navbar-brand h1 {
       font-size: 40px;
     }
+  /* End Header */  
 
-  .jumbotron {
+
+  /* Home Page */
+  .container .jumbotron {
     background: url('../images/mac992.jpg') no-repeat;
     height: 552px;
-    box-shadow: 0 0 0 #555;
-    border: 2px solid white;
     margin-top: 30px;
   }
+  /* End Home Page */
 }
+
 /*** SMALL DEVICES ***/
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Header */
   .navbar-brand h1 {
       font-size: 35px;
     }
+  /* End Header */  
 
-  .jumbotron {
+  /* Home Page */
+  .container .jumbotron {
     background: url('../images/mac768.jpg') no-repeat;
     height: 427px;
-    box-shadow: 0 0 0 #555;
-    border: 2px solid white;
     margin-top: 30px;
   }
+  /* End Home Page */
 }
+
 /*** XS DEVICES ***/
 @media (max-width: 767px) {
-	.navbar-header button.navbar-toggle {
+	/* Header */
+
+  .navbar-header button.navbar-toggle {
     clear: both;
   }
 
@@ -128,6 +187,7 @@ body {
 
 	.navbar-brand h1 {
 		font-size: 5vw;
+    margin-top: 25px;
 	}
 
   #header-nav {
@@ -136,9 +196,6 @@ body {
 
   #nav-list {
     margin-top: 1px;
-  }
-  .navbar-brand h1 {
-    margin-top: 25px;
   }
 
   #collapsable-nav #nav-list > li > a {
@@ -149,13 +206,35 @@ body {
   #collapsable-nav #nav-list > li > a:hover {
   background: white;
   } 
+  /* End Header */
 
-  #main-content .jumbotron {
+  /* Home Page */
+  .container .jumbotron {
     margin-top: 30px;
     padding: 0;
-    box-shadow: 0 0 0 #555;
-    border: 2px solid white;
   }
+
+  #github-tile, #ffc-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+}
+
+/*** SUPER EXTRA SMALL DEVICES (iPhone 4 etc) ***/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+
+  /* Home Page */
+  #github-tile, #ffc-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
 }
 
 
