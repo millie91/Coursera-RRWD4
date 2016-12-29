@@ -358,6 +358,14 @@ footer a:hover {
 /*----- XS DEVICES -----*/
 @media (min-width: 480px) and (max-width: 767px) {
 
+  /* Home Page */
+  #home {
+  background: url('../images/mac768.jpg') no-repeat fixed;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center;
+  }
+
   .navbar-header {
     margin-top: 20px;
   }
@@ -394,9 +402,13 @@ footer a:hover {
 
 /*----- SUPER EXTRA SMALL DEVICES -----*/
 @media (max-width: 479px) {
+  .navbar-brand {
+    margin-bottom: 10px;
+  }
 
-  #nav-list {
-    padding: 0;
+  .navbar-brand h1 {
+    padding-top: 8px;
+    font-size: 30px;
   }
 
   /* Home Page */
