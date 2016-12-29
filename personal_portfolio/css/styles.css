@@ -1,0 +1,310 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: none;
+  color: #000;
+	font-family: 'Raleway', sans-serif;
+}
+
+/***** HEAD SECTION *****/
+.navbar {
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  border: none;
+  font-variant: small-caps;
+  background: url('../images/menu_background.jpg');
+} 
+
+.navbar-brand h1 {
+  color: #fff;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+  border-radius: 5px;
+  color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+
+.navbar-header button.navbar-toggle {
+  clear:both;
+  margin-top: -40px;
+}
+
+.navbar-header button.navbar-toggle:hover {
+  background: #555;
+}
+/***** HOME SECTION *****/
+#home {
+  background: url('../images/mac1200.jpg') no-repeat fixed;
+  min-height: 1000px;
+  background-size: cover;
+  background-position: center;
+}
+
+#home button {
+  background-color: rgba(0, 0, 20, .25);
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#home button:hover {
+  background: #fff;
+  color: rgba(0, 0, 20, .90);
+}
+
+#main-button.span {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+#home h1 {
+  color: #fff;
+  margin-top: 50%;
+  letter-spacing: 10px;
+  padding-top: 10px;
+  font-variant: small-caps;
+  font-family: 'Exo', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+#home h4 {
+  color: #fff;
+  letter-spacing: 10px;
+  font-variant: small-caps;
+  padding: 20px 10px;
+  font-family: 'Exo', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.btn-group a {
+  color: #fff;
+}
+
+/***** ABOUT SECTION *****/
+#about {
+  min-height: 900px;
+  background-size: cover;
+  background-position: center;
+}
+
+#about h2 {
+  margin-top: 5%;
+  color: #000;
+  font-size: 40px;
+  text-decoration: none;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+#about img {
+  border-radius: 20px;
+  border: 1px solid #fff;
+  max-width: 250px;
+}
+
+#about, #coder a {
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+#about, #coder a:hover {
+  color: blue;
+}
+
+#about p {
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#about h4 {
+  color: #000;
+  font-size: 20px;
+} 
+
+#about span {
+  color: #000;
+  font-size: 20px;
+}
+
+#profile-photo img {
+  margin-bottom: 40px;
+}
+
+/***** PORTFOLIO SECTION *****/
+#portfolio {
+  background: #c8bedc;
+  min-height: 900px;
+  background-position: center;
+  background-size: cover;
+}
+
+#portfolio h2 {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  color: black;
+  font-variant: small-caps;
+  font-size: 40px;
+}
+
+#portfolio a:hover {
+  text-decoration: none;
+}
+
+#portfolio-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  background: url('../images/github.jpg') no-repeat;
+  background-position: center;
+}
+
+#map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  position: center;
+}
+
+#portfolio-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px #222;
+}
+
+#portfolio-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  font-variant: small-caps;  
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+.row h3 {
+  margin-top: 5%;
+}
+
+/***** CONTACT SECTION *****/
+#contact {
+  min-height: 500px;
+  background-position: center;
+  background-size: cover;
+  background: url('../images/contact.jpg') no-repeat fixed;
+}
+
+#contact button {
+  background-color: rgba(0, 0, 20, .25);
+  color: #fff;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-right: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#contact button:hover {
+  background: #fff;
+  color: rgba(0, 0, 20, .90);
+}
+
+
+#contact h3 {
+  color: white;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#contact h3:hover {
+  color: #999;
+}
+
+#contact a:hover {
+  text-decoration: none;
+}
+
+.ms-bkd {
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 10px;
+  background-color: rgba(25, 0, 0, .45);
+  word-wrap: break-word;
+}
+
+/***** FOOTER *****/
+footer {
+  background: url('../images/menu_background.jpg');
+  height: auto;
+  padding: 15px 5px 15px 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #837b7b;
+  text-decoration: none;
+}
+
+/*----- XS DEVICES -----*/
+@media (max-width: 767px) {
+
+.navbar-header {
+  margin-top: 20px;
+}
+
+.navbar-header h1 {
+  margin-top: -20px;
+}
+
+#portfolio-tile, #map-tile, .row h3 {
+  width: 320px;
+  margin: 0 auto 15px;
+}
+
+

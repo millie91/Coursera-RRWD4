@@ -14,7 +14,7 @@ body {
 #header-nav {
 	background: url('../images/menu_background.jpg') no-repeat;
 	border-radius: 0;
-	border: solid 2px white;
+	border: solid 1px white;
 	height: 150px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 #nav-list a {
-	color: #fff;
+	color: red;
 	font-size: 20px;
 	margin: 0;
   padding: 10px;
@@ -66,7 +66,7 @@ body {
 
 .navbar-header button.navbar-toggle {
 	clear: both;
-	margin-top: -15px;
+	margin-top: -45px;
 }
 
 .navbar-header button.navbar-toggle:hover {
@@ -237,4 +237,87 @@ body {
 
 }
 
+/* FOOTER */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  height:10px;
+}
+
+.fa {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialised;
+}
+
+#contact-me {
+  color: #fff;
+  background-color: #222;
+}
+
+#contact-me h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#contact-me span {
+  color: #4f5395;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#contact-me span:hover {
+  color: #ac8cb2;
+  cursor: pointer;
+  padding: 1px;
+}
+
+
+.panel-footer {
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  margin-top: 30px;
+  padding-top: 35px;
+  color: #fff;
+  background: url('../images/menu_background.jpg') no-repeat;
+  border-top: 0;
+}
+
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#footer-content a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+#footer-content a:hover {
+  color: #837b7b;
+  margin: 1px;
+}
+
+
+
+/* END FOOTER */
 
