@@ -18,7 +18,7 @@ body {
   margin-top: 0;
   border: none;
   font-variant: small-caps;
-  background: url('https://static1.squarespace.com/static/571bd6329f7266bb8a3fd6b3/t/5761a3a9b09f9575d9b5c0bc/1466016685574/Netword_Gradient%5B1%5D.jpg?format=1500w');
+  background: url('https://static1.squarespace.com/static/571bd6329f7266bb8a3fd6b3/t/5761a3a9b09f9575d9b5c0bc/1466016685574/Netword_Gradient%5B1%5D.jpg?format=2500w');
 } 
 
 .navbar-brand h1 {
@@ -66,7 +66,6 @@ body {
   min-height: 1000px;
   background-size: cover;
   background-position: center;
-  margin-top: -10px;
 }
 
 #home button {
@@ -92,7 +91,7 @@ body {
 
 #home h1 {
   color: #fff;
-  margin-top: 10%;
+  margin-top: 20%;
   letter-spacing: 10px;
   padding-top: 10px;
   font-variant: small-caps;
@@ -127,7 +126,7 @@ body {
 }
 
 #about h2 {
-  margin-top: 5%;
+  margin-top: 10%;
   color: #fff;
   font-size: 40px;
   text-decoration: none;
@@ -184,7 +183,7 @@ body {
 }
 
 #portfolio h2 {
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 10%;
   color: #fff;
   font-variant: small-caps;
@@ -235,7 +234,7 @@ body {
 /***** CONTACT SECTION *****/
 #contact {
   background: url("http://cdn.pcwallart.com/images/apple-computer-keyboard-wallpaper-3.jpg");
-  min-height: 1000px;
+  min-height: 500px;
   background-size: cover;
   background-position: center;
 }
@@ -288,7 +287,7 @@ body {
 
 /***** FOOTER *****/
 footer {
-  background: url('https://static1.squarespace.com/static/571bd6329f7266bb8a3fd6b3/t/5761a3a9b09f9575d9b5c0bc/1466016685574/Netword_Gradient%5B1%5D.jpg?format=1500w');
+  background: url('https://static1.squarespace.com/static/571bd6329f7266bb8a3fd6b3/t/5761a3a9b09f9575d9b5c0bc/1466016685574/Netword_Gradient%5B1%5D.jpg?format=2500w');
   height: auto;
   padding: 15px 5px 15px 10px;
 }
@@ -372,6 +371,10 @@ footer a:hover {
 
 /*----- SMALL DEVICES -----*/
 @media (min-width: 768px) and (max-width: 991px) {
+  
+  /* Home Page */
+  
+  
   /* Portfolio Page */
   #portfolio-tile {
     width: 360px;
@@ -410,6 +413,9 @@ footer a:hover {
     margin-top: -5px;
     font-size: 35px;
   }
+  
+  /* Home Page */
+  
 
   /* Portfolio Page */
   #portfolio-tile, .row h3 {
@@ -439,6 +445,9 @@ footer a:hover {
     margin-top: 10px;
     font-size: 30px;
   }
+  
+  /* Home Page */
+
 
   /* Portfolio Page */
   #portfolio-tile {
